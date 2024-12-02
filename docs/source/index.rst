@@ -1,13 +1,10 @@
 Welcome to Savanna shared Kubernetes cluster documentation!
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+**Savanna** is a shared Kubernetes Cluster operated by TACC's CIC group.
 
 Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+how to :ref:`access` the cluster.
 
 .. note::
 
@@ -19,4 +16,3 @@ Contents
 .. toctree::
 
    usage
-   api
