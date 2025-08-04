@@ -70,6 +70,7 @@ savanna-gpu-p100-1:
     operator: "Exists"
     effect: "NoSchedule"
 
+
 savanna-gpu-v100-1:
 .. code-block:: console
 
@@ -79,6 +80,7 @@ savanna-gpu-v100-1:
   - key: "nvidia.com/gpu"
     operator: "Exists"
     effect: "NoSchedule"
+
 
 savanna-largemem-1&2:
 .. code-block:: console
