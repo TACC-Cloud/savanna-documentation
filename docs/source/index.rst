@@ -16,3 +16,5 @@ Contents
 .. toctree::
 
    getting-started
+
+   features
