@@ -6,6 +6,8 @@ Getting Started
 Access
 ------------
 
+.. _access:
+
 In order to connect to Savanna, a user must first request access to the cluster and a new or existing project (namespace) from the administrators. 
 
 Once this step is complete, Savanna can be accessed through the host login-shared.tacc.utexas.edu, or login-shared-test.tacc.utexas.edu for the test cluster:
