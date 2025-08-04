@@ -26,5 +26,5 @@ As this user, kubernetes commands can be executed within the assigned namespace.
 .. code-block:: console
 
    $ kubectl get pods
-   No resources found in jhub-ds-staging namespace.
+   No resources found in testing namespace.
 
