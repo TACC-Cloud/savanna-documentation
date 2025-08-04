@@ -15,4 +15,4 @@ Contents
 
 .. toctree::
 
-   gettingstarted
+   getting-started
