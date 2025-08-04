@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'Savanna Shared Kubernetes Cluster'
+copyright = '2025, Texas Advanced Computing Center'
+author = 'François'
 
 release = '0.1'
 version = '0.1.0'
