@@ -1,12 +1,11 @@
 Getting Started
 =====
 
-.. _gettingstarted:
+.. _access:
 
 Access
 ------------
 
-.. _access:
 
 In order to connect to Savanna, a user must first request access to the cluster and a new or existing project (namespace) from the administrators. 
 
