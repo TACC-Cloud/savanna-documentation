@@ -3,7 +3,7 @@
 # -- Project information
 
 project = 'Savanna Shared Kubernetes Cluster'
-copyright = '2025, Texas Advanced Computing Center'
+copyright = '2025, TACC'
 author = 'François'
 
 release = '0.1'
