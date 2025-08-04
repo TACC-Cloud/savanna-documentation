@@ -3,7 +3,7 @@ Welcome to Savanna shared Kubernetes cluster documentation!
 
 **Savanna** is a shared Kubernetes Cluster operated by TACC's CIC group.
 
-Check out the :doc:`_gettingstarted` section for further information, including
+Check out the :doc:`getting-started` section for further information, including
 how to :ref:`access` the cluster.
 
 .. note::
