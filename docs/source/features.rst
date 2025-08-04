@@ -61,6 +61,7 @@ Please keep in mind that in most use cases, both a toleration and a nodeselector
 The nodeselectors and tolerations for specialized nodes are as follows:
 
 savanna-gpu-p100-1:
+
 .. code-block:: console
 
   nodeSelector:
@@ -72,6 +73,7 @@ savanna-gpu-p100-1:
 
 
 savanna-gpu-v100-1:
+
 .. code-block:: console
 
   nodeSelector:
@@ -83,6 +85,7 @@ savanna-gpu-v100-1:
 
 
 savanna-largemem-1&2:
+
 .. code-block:: console
 
   nodeSelector:
