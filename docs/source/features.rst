@@ -102,3 +102,38 @@ Namespace specific nodes
 ------------
 
 Savanna offers the option of having nodes dedicated to your project namespace, that other projects cannot launch on. Your pods can also be made to automatically launch on specific groups of shared or reserved nodes. This feature is available by request from the administrators.
+
+Storage
+------------
+
+Users are able to create personal volumes using a preconfigured Ceph backed Kubernetes storage class: cinder-csi.
+
+.. code-block:: console
+
+  ---
+  apiVersion: v1
+  kind: PersistentVolume
+  metadata:
+    name: <my-pv>
+  spec:
+    capacity:
+      storage: 10Gi
+    accessModes:
+      - ReadWriteOnce
+    csi:
+      driver: cinder.csi.openstack.org
+      volumeHandle: <cinder volume id>   
+    storageClassName: cinder-csi
+  ---
+  apiVersion: v1
+  kind: PersistentVolumeClaim
+  metadata:
+    name: <my pvc>
+  spec:
+    accessModes:
+      - ReadWriteOnce
+    resources:
+      requests:
+        storage: 10Gi
+    storageClassName: cinder-csi
+    volumeName: <my pv>
