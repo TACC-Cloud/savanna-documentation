@@ -107,6 +107,7 @@ Storage
 ------------
 
 Users are able to create personal volumes using a preconfigured Ceph backed Kubernetes storage class: cinder-csi
+
 Please see this example yaml:
 
 
