@@ -106,7 +106,9 @@ Savanna offers the option of having nodes dedicated to your project namespace, t
 Storage
 ------------
 
-Users are able to create personal volumes using a preconfigured Ceph backed Kubernetes storage class: cinder-csi.
+Users are able to create personal volumes using a preconfigured Ceph backed Kubernetes storage class: cinder-csi
+Please see this example yaml:
+
 
 .. code-block:: console
 
