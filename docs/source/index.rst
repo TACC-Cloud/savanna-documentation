@@ -18,3 +18,5 @@ Contents
    getting-started
 
    features
+
+   troubleshooting
