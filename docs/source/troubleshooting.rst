@@ -10,8 +10,9 @@ During deployment of your resources, you may encounter a message such as this on
 
 .. code-block:: console
 
-   HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":
-   "configmaps is forbidden: User \"system:serviceaccount:jhub-ds-staging:default\" cannot create resource
+   HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":
+   "Failure","message":"configmaps is forbidden: 
+   User \"system:serviceaccount:jhub-ds-staging:default\" cannot create resource
    \"configmaps\" in API group \"\" in the namespace \"jhub-ds-staging\"",
    "reason":"Forbidden","details":{"kind":"configmaps"},"code":403}
 
