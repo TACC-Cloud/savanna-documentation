@@ -10,7 +10,10 @@ During deployment of your resources, you may encounter a message such as this on
 
 .. code-block:: console
 
-   HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"configmaps is forbidden: User \"system:serviceaccount:jhub-ds-staging:default\" cannot create resource     \"configmaps\" in API group \"\" in the namespace \"jhub-ds-staging\"","reason":"Forbidden","details":{"kind":"configmaps"},"code":403}
+   HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":
+   "configmaps is forbidden: User \"system:serviceaccount:jhub-ds-staging:default\" cannot create resource
+   \"configmaps\" in API group \"\" in the namespace \"jhub-ds-staging\"",
+   "reason":"Forbidden","details":{"kind":"configmaps"},"code":403}
 
 This can be due to 2 separate issues, depending on what is shown in this section: **system:serviceaccount:jhub-ds-staging:default**. In the example shown, "jhub-ds-staging" indicates the namespace (system), and "default" indicated the service account. However the "default" service account is not given permission during namespace creation. It is therefore important to ensure that the components of your deployment are created with the service account bearing the same name as your namespace. You can do this by specifying the service account in the template spec, for example:
 
