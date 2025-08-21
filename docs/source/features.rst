@@ -21,7 +21,7 @@ Savanna allows users to create an ingress which will automatically request and i
     tls:
       - hosts:
           - <my-subdomain>.tacc.cloud
-        secretName: test.tacc.cloud-tls
+        secretName: <my-subdomain>.tacc.cloud-tls
     rules:
       - host: <my-subdomain>.tacc.cloud
         http:
