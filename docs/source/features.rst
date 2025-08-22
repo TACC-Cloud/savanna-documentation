@@ -32,7 +32,7 @@ Savanna allows users to create an ingress which will automatically request and i
                 service:
                   name: <my-service> 
                   port:
-                    number: 443
+                    number: <svc port>
 
 .. _node-selection:
 
